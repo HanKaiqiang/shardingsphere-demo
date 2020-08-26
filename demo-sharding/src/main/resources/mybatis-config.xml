@@ -4,13 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <package name="com.tianyilan.shardingsphere.demo.entity"/>
+        <package name="com.shardingsphere.demo.entity"/>
     </typeAliases>
     <mappers>
         <mapper resource="mappers/UserMapper.xml"/>
-        <mapper resource="mappers/HealthRecordMapper.xml"/>
         <mapper resource="mappers/HealthTaskMapper.xml"/>
-        <mapper resource="mappers/HealthLevelMapper.xml"/>
     </mappers>
 </configuration>
 
